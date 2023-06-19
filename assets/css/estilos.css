@@ -11,24 +11,26 @@ body {
   background-position: left;
 }
 
-/* Mis favoritos */
 
-#Mis-favoritos .image-top {
-  height: 250px;
+/* Educacion */
+
+#Educacion .image-top {
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
 
+}
+.card-body {
+  height: 190px;
+}
 /* Contacto */
 
-#Contacto form label {
-  font-weight: 700;
-  color: #373a3c;
-}
+
+
+
 
 @media (max-width: 768px) {
-  #Contacto form label {
     font-weight: 400;
   }
 

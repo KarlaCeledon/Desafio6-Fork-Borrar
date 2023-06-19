@@ -33,6 +33,8 @@
   </head>
 
   <body>
+    <!-- Navbar funcional -->
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <a
@@ -68,27 +70,29 @@
               <a
                 class="nav-link"
                 href="#Acerca-de-mi"
-                >Hablemos de mí</a
+                >¿Quién soy?</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="#Mis-favoritos"
-                >Trabajos</a
+                href="#Educacion"
+                >Educación</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="#Contacto"
-                >Contacto</a
+                href="#experiencia-laboral"
+                >Experiencia Laboral</a
               >
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
+    <!-- Finaliza Navbar -->
 
     <header
       id="Hero-Section"
@@ -108,19 +112,12 @@
             la educación y actualmente Introducción al desarrollo web
           </p>
           <div class="mb-5 pb-5">
-            <button class="btn btn-lg btn-outline-dark text-light me-4">
-              <a
-                href="#Mis-favoritos"
+            <button class="btn btn-lg btn-outline-danger text-light me-4">
+              <a 
+                href="./portafolio.html" 
+                target="_blank" 
                 class="text-decoration-none text-light"
-                >Libros favoritos</a
-              >
-            </button>
-            <button class="btn btn-lg btn btn-outline-secondary text-light me-4">
-              <a
-                href="#Contacto"
-                class="text-decoration-none text-light"
-                >Contacto</a
-              >
+                >Portafolio</a>
             </button>
           </div>
         </div>
@@ -130,9 +127,12 @@
     <section
       id="Acerca-de-mi"
       class="container text-center my-5">
-      <h2 class="display-3 fw-bold my-4">¡Hablemos de mí!</h2>
+      <h2 class="display-3 fw-bold my-4">¿Quién soy?</h2>
 
-      <p class="my-4">Aquí te cuento algunas cosas importantes del mí vida</p>
+      <p class="my-4">
+        Como sabes, o debieras saber... Me llamo Ignacio y aquí hay 3 pilares
+        fundamentales para conocerme
+      </p>
 
       <div class="row">
         <div class="col-12 col-md-4">
@@ -164,83 +164,57 @@
       </div>
     </section>
 
+    <!-- Sección Educación -->
+
     <section
-      id="Mis-favoritos"
+      id="Educacion"
       class="my-5 p-5 bg-dark">
       <h2 class="display-4 fw-bold text-center text-light mb-3">
-        Mis libros favoritos
+        Mi experiencia aprendiendo
       </h2>
 
-      <div class="row">
+      <div class="row justify-content-center">
         <div class="col-12 col-sm-4 py-2">
           <div class="card">
             <div
               class="image-top"
               style="background-image: url(./assets/img/card-1.png)"></div>
-            <div class="card-body">
-              <h5 class="card-title fw-bold">
-                La Brecha - Toti Martínez de Lezea
-              </h5>
-              <p class="card-text">
-                "San Sebastián, 1813. José Bonaparte ha perdido la guerra y el
-                ejército francés se retira de la Península, azuzado por las
-                tropas aliadas comandadas por Lord Wellington." <br />
-                Una mirada femenina de un conflicto bélico.
+            <div
+              class="card-body d-flex flex-column justify-content-end align-items-center">
+              <h5 class="card-title fw-bold">Pedagogía en Castellano - UMCE</h5>
+              <p class="card-text text-center">
+                Como dice la gente, mi alma mater. Donde aprendí, más a pesar de
+                la universidad que por esta.
               </p>
               <button
                 type="button"
                 class="btn btn btn-outline-dark"
-                onclick="window.open('https://www.ecured.cu/La_Brecha_(libro)', '_blank')">
-                Ver más
+                onclick="window.open('https://www.umce.cl/', '_blank')">
+                Vamos a la pagina
               </button>
             </div>
           </div>
         </div>
+
         <div class="col-12 col-sm-4 py-2">
           <div class="card">
             <div
               class="image-top"
               style="background-image: url(assets/img/card-2.jpg)"></div>
-            <div class="card-body">
-              <h5 class="card-title fw-bold">
-                Don Quijote de La Mancha - Miguel de Cervantes
-              </h5>
-              <p class="card-text">
-                En un lugar de la Mancha, de cuyo nombre no quiero acordarme...
-                <br />
-                <br />
-                <br />
-                Uno de aquellos imperdibles.
-              </p>
-              <button
-                type="button"
-                class="btn btn btn-outline-dark"
-                onclick="window.open('https://www.ecured.cu/Don_Quijote_de_la_Mancha', '_blank')">
-                Ver más
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-4 py-2">
-          <div class="card">
             <div
-              class="image-top"
-              style="background-image: url(assets/img/card-3.jpg)"></div>
-            <div class="card-body">
+              class="card-body d-flex flex-column justify-content-end align-items-center">
               <h5 class="card-title fw-bold">
-                La legión perdida - Santiago Posteguillo
+                Diplomado en Neurociencias para la Educación
               </h5>
-              <p class="card-text">
-                Uno de los primeros, sino el primero, con el que me desvelé,
-                leía cada noche hasta quedarme dormido en una tablet. <br />
-                Disfruté cada pagina de las mil y tantas. <br />
-                Años después me enteré que pertenecía a una trilogía.
+              <p class="card-text text-center">
+                Un diplomado en el que aprendí, sobretodo, a aprender. <br />
+                De esos en los que uno aprende aunque no quiera.
               </p>
               <button
                 type="button"
                 class="btn btn btn-outline-dark"
-                onclick="window.open('https://www.planetadelibros.cl/libro-la-legion-perdida/352461', '_blank')">
-                Ver más
+                onclick="window.open('https://uai.edu.ar/', '_blank')">
+                Vamos a la pagina
               </button>
             </div>
           </div>
@@ -248,49 +222,47 @@
       </div>
     </section>
 
+    <!-- Finaliza Sección Educación -->
+
     <section
-      id="Contacto"
-      class="container-fluid my-5 bg-secondary text-light">
-      <h2 class="display-4 fw-bold text-center  my-4">Contáctame</h2>
-
-      <p class="text-center my-4 d-none d-md-block">
-        Si quieres ponerte en contacto conmigo, dejame tu nombre correo y el
-        motivo. Mientras más detallado, <br />
-        ¡MEJOR! <br />
-        Así puedo darte una respuesta más elaborada.
-      </p>
-
-      <form>
-        <div class="form-group mb-4 ">
-          <label class="mb-2 text-light">Nombre</label>
-          <input
-            class="form-control"
-            placeholder="Nombre" />
+      id="experiencia-laboral"
+      class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Experiencia Laboral</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Colegio del Real</h5>
+                <p class="card-text">Cargo: Docente de Lenguaje 7°Básico a 4°Medio </p>
+                <p class="card-text">Periodo: Octubre 2020  - Marzo 2022</p>
+                <p class="card-text">
+                  Descripción: Conecté con los  estudiantes, enfocandome en sus gustos y necesidades.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Colegio Carolina Llona</h5>
+                <p class="card-text">Cargo: Docente de segundo ciclo - Lenguaje</p>
+                <p class="card-text">Periodo: Marzo 2022 - Presente</p>
+                <p class="card-text">
+                  Descripción: Un colegio que atiende las diversas vulnerabilidades, que me ha permitido explotar gran parte de las habilidades que he adquirido con los años.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="form-group mb-4">
-          <label class="mb-2 text-light">Correo electrónico</label>
-          <input
-            class="form-control"
-            placeholder="Correo electrónico" />
-        </div>
-
-        <div class="form-group">
-          <label class="mb-2 text-light">Mensaje</label>
-          <textarea
-            class="form-control"
-            placeholder="Escribe aquí tu mensaje"></textarea>
-        </div>
-
-        <div class="my-3 text-center">
-          <button class="btn btn-dark text-light">Enviar</button>
-        </div>
-      </form>
+      </div>
     </section>
 
+    <!-- Footer -->
     <footer class="bg-dark text-center text-light p-4">
-      <p class="mb-0">Ignacio Briones 2023. Todos los derechos reservados.</p>
+      <p class="mb-0">Ignacio Briones 2023. <br>Todos los derechos reservados.</p>
     </footer>
+    <!-- Finaliza Footer -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
