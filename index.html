@@ -1,11 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous" />
+    <title>Ignacio Briones</title>
+    <script
+      src="https://kit.fontawesome.com/193eac7000.js"
+      crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="assets/css/estilos.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="#">
+          <video
+            width="125"
+            height="50"
+            autoplay
+            loop
+            muted>
+            <source
+              src="./assets/img/logov.mp4"
+              type="video/mp4" />
+            Tu navegador no soporta el elemento de video.
+          </video>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#Acerca-de-mi"
+                >Hablemos de mí</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#Mis-favoritos"
+                >Trabajos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#Contacto"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header
+      id="Hero-Section"
+      class="text-light text-end py-5">
+      <div class="container">
+        <div class="ms-auto col-12 col-md-7">
+          <h1 class="display-1 fw-bold my-5">
+            Perfil Personal <br />
+            Ignacio Briones
+          </h1>
+          <p class="my-5">
+            Nací en Chile un 13 de julio del año 95. <br />
+            He vivido toda mi vida, hasta la fecha, en Maipú. <br />
+            Algunas cosas relacionadas al arte que más disfruto son:
+            Videojuegos, Cine y la Fotografía. <br />
+            Estudié Pedagogía en Castellano, un diplomado en Neurociencias para
+            la educación y actualmente Introducción al desarrollo web
+          </p>
+          <div class="mb-5 pb-5">
+            <button class="btn btn-lg btn-outline-dark text-light me-4">
+              <a
+                href="#Mis-favoritos"
+                class="text-decoration-none text-light"
+                >Libros favoritos</a
+              >
+            </button>
+            <button class="btn btn-lg btn btn-outline-secondary text-light me-4">
+              <a
+                href="#Contacto"
+                class="text-decoration-none text-light"
+                >Contacto</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section
+      id="Acerca-de-mi"
+      class="container text-center my-5">
+      <h2 class="display-3 fw-bold my-4">¡Hablemos de mí!</h2>
+
+      <p class="my-4">Aquí te cuento algunas cosas importantes del mí vida</p>
+
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <i class="fa-solid fa-heart fa-3x my-3"></i>
+          <h3 class="my-3 fw-bold">Karla</h3>
+          <p class="my-3">
+            Mi novia se llama Karla Celedon. <br />
+            Estamos oficialmente juntos desde una fecha palíndromo... <br />
+            22/02/2022
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <i class="fa-solid fa-computer fa-3x my-3"></i>
+          <h3 class="my-3 fw-bold">Computadores</h3>
+          <p class="my-3">
+            No exageremos, pero desde los 5 o 6 años que utilizo computadores,
+            ya que mi padre trabajaba desde aquella época en soporte
+            informático.
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <i class="fa-solid fa-pencil fa-3x my-3"></i>
+          <h3 class="my-3 fw-bold">Pedagogía</h3>
+          <p class="my-3">
+            En algún momento de mi vida me di cuenta que me gustaba enseñar y
+            estudié pedagogía en Castellano en la UMCE.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="Mis-favoritos"
+      class="my-5 p-5 bg-dark">
+      <h2 class="display-4 fw-bold text-center text-light mb-3">
+        Mis libros favoritos
+      </h2>
+
+      <div class="row">
+        <div class="col-12 col-sm-4 py-2">
+          <div class="card">
+            <div
+              class="image-top"
+              style="background-image: url(./assets/img/card-1.png)"></div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">
+                La Brecha - Toti Martínez de Lezea
+              </h5>
+              <p class="card-text">
+                "San Sebastián, 1813. José Bonaparte ha perdido la guerra y el
+                ejército francés se retira de la Península, azuzado por las
+                tropas aliadas comandadas por Lord Wellington." <br />
+                Una mirada femenina de un conflicto bélico.
+              </p>
+              <button
+                type="button"
+                class="btn btn btn-outline-dark"
+                onclick="window.open('https://www.ecured.cu/La_Brecha_(libro)', '_blank')">
+                Ver más
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 py-2">
+          <div class="card">
+            <div
+              class="image-top"
+              style="background-image: url(assets/img/card-2.jpg)"></div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">
+                Don Quijote de La Mancha - Miguel de Cervantes
+              </h5>
+              <p class="card-text">
+                En un lugar de la Mancha, de cuyo nombre no quiero acordarme...
+                <br />
+                <br />
+                <br />
+                Uno de aquellos imperdibles.
+              </p>
+              <button
+                type="button"
+                class="btn btn btn-outline-dark"
+                onclick="window.open('https://www.ecured.cu/Don_Quijote_de_la_Mancha', '_blank')">
+                Ver más
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 py-2">
+          <div class="card">
+            <div
+              class="image-top"
+              style="background-image: url(assets/img/card-3.jpg)"></div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">
+                La legión perdida - Santiago Posteguillo
+              </h5>
+              <p class="card-text">
+                Uno de los primeros, sino el primero, con el que me desvelé,
+                leía cada noche hasta quedarme dormido en una tablet. <br />
+                Disfruté cada pagina de las mil y tantas. <br />
+                Años después me enteré que pertenecía a una trilogía.
+              </p>
+              <button
+                type="button"
+                class="btn btn btn-outline-dark"
+                onclick="window.open('https://www.planetadelibros.cl/libro-la-legion-perdida/352461', '_blank')">
+                Ver más
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="Contacto"
+      class="container-fluid my-5 bg-secondary text-light">
+      <h2 class="display-4 fw-bold text-center  my-4">Contáctame</h2>
+
+      <p class="text-center my-4 d-none d-md-block">
+        Si quieres ponerte en contacto conmigo, dejame tu nombre correo y el
+        motivo. Mientras más detallado, <br />
+        ¡MEJOR! <br />
+        Así puedo darte una respuesta más elaborada.
+      </p>
+
+      <form>
+        <div class="form-group mb-4 ">
+          <label class="mb-2 text-light">Nombre</label>
+          <input
+            class="form-control"
+            placeholder="Nombre" />
+        </div>
+
+        <div class="form-group mb-4">
+          <label class="mb-2 text-light">Correo electrónico</label>
+          <input
+            class="form-control"
+            placeholder="Correo electrónico" />
+        </div>
+
+        <div class="form-group">
+          <label class="mb-2 text-light">Mensaje</label>
+          <textarea
+            class="form-control"
+            placeholder="Escribe aquí tu mensaje"></textarea>
+        </div>
+
+        <div class="my-3 text-center">
+          <button class="btn btn-dark text-light">Enviar</button>
+        </div>
+      </form>
+    </section>
+
+    <footer class="bg-dark text-center text-light p-4">
+      <p class="mb-0">Ignacio Briones 2023. Todos los derechos reservados.</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
